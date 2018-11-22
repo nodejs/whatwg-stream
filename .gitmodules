@@ -1,0 +1,3 @@
+[submodule "streams"]
+	path = streams
+	url = git@github.com:whatwg/streams.git
