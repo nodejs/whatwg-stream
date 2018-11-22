@@ -4,7 +4,8 @@
   "description": "WIP support for WHATWG Stream in Node",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --expose-internals --experimental-worker --expose_gc test/wpt/test-whatwg-streams.js",
+    "sync": "git submodule update --init"
   },
   "repository": {
     "type": "git",

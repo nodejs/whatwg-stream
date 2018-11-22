@@ -1,0 +1,14 @@
+{
+  "streams": {
+    "commit": "a89730a0f3638d709ccc42064c8f8eb8935b04f7",
+    "path": "streams"
+  },
+  "interfaces": {
+    "commit": "53dc4fb61401f49e7312d1470139940b9892bb89",
+    "path": "interfaces"
+  },
+  "resources": {
+    "commit": "c6d4a3c8d42294787a54c9667675873c224e3e1a",
+    "path": "resources"
+  }
+}
