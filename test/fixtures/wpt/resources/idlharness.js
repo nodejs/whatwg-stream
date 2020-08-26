@@ -781,6 +781,12 @@ function exposed_in(globals) {
         self instanceof ServiceWorkerGlobalScope) {
         return globals.has("ServiceWorker");
     }
+    if (!('location' in self)) {
+        // HACK: Pretend that our JavaScript shell exposes worker interfaces.
+        // The streams interfaces are currently only exposed for windows, workers and worklets
+        // and there's no such thing as [Exposed=Shell] in Web IDL yet.
+        return globals.has("DedicatedWorker");
+    }
     throw new IdlHarnessError("Unexpected global object");
 }
 
