@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/nodejs/whatwg-stream/issues"
   },
-  "homepage": "https://github.com/nodejs/whatwg-stream#readme"
+  "homepage": "https://github.com/nodejs/whatwg-stream#readme",
+  "dependencies": {
+    "web-streams-polyfill": "^3.0.2"
+  }
 }
