@@ -1,0 +1,14 @@
+{
+  "piping/pipe-through.any.js": {
+    "fail": "Node does not perform a brand check for AbortSignal.prototype.aborted"
+  },
+  "queuing-strategies-size-function-per-global.window.js": {
+    "skip": "test requires an <iframe>"
+  },
+  "readable-byte-streams/bad-buffers-and-views.any.js": {
+    "skip": "Node does not have detached ArrayBuffers"
+  },
+  "transferable/deserialize-error.window.js": {
+    "skip": "test requires an <iframe>"
+  }
+}
