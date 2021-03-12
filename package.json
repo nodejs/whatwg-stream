@@ -4,7 +4,7 @@
   "description": "WIP support for WHATWG Stream in Node",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --expose-internals --expose_gc test/wpt/test.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/nodejs/whatwg-stream/issues"
   },
-  "homepage": "https://github.com/nodejs/whatwg-stream#readme"
+  "homepage": "https://github.com/nodejs/whatwg-stream#readme",
+  "engines": {
+    "node": ">= 15"
+  },
+  "dependencies": {
+    "web-streams-polyfill": "^3.0.2"
+  }
 }
