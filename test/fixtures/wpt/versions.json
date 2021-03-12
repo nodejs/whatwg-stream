@@ -1,0 +1,18 @@
+{
+  "common": {
+    "commit": "d758aedae2d5a96604a07e915795ba00d2b4fe57",
+    "path": "common"
+  },
+  "interfaces": {
+    "commit": "4c7a0a83813006cad4d15f28e65ce66cd499db30",
+    "path": "interfaces"
+  },
+  "resources": {
+    "commit": "4235130a746794f27e70aa25ba24195d96aacd95",
+    "path": "resources"
+  },
+  "streams": {
+    "commit": "7e94a4bcb5bd6808e08ed8db46fa63751543db52",
+    "path": "streams"
+  }
+}
